@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600;691;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+body {
+  font-family: "fira code", monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primaryColor: #0d263b;
+  --secondaryColor: #696969;
+  --activeColor: #0061df;
+  --why: #f5f7fc;
+}
+
+.title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #0d263b;
+}
+.subtitle {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0d263b;
+}
+.description {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #696969;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.endToRight {
+  display: flex;
+  margin-left: auto;
+}
+.delitet {
+  text-decoration: line-through;
+}
+.alice-carousel__stage {
+  display: flex;
+  gap: 20px;
+}
